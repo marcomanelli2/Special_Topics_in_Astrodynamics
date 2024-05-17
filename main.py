@@ -54,6 +54,8 @@ if __name__ == '__main__':
     print(n.tolist())
     print(beta)
 
+    print(np.rad2deg(np.arccos(np.dot(n, r1_art))))
+
 
     # 2.1a
     K = (1 - MU) / abs(x_L1 + MU) ** 3 + MU / abs(x_L1 - (1 - MU)) ** 3
